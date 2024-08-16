@@ -314,8 +314,11 @@
   font-weight: bold;
 }
 .memberlink img{
-  height: 100%;width: auto;margin: 0 0.5vw;cursor: pointer;
+  height: 100%;width: auto;margin: 0 0.5vw;cursor: pointer;border-radius: 50%;
 }
+    .memberlink a{
+      height: 100%;
+    }
 
 
 /*頁尾預約設計*/
@@ -721,8 +724,11 @@
   font-weight: bold;
 }
 .memberlink img{
-  height: 100%;width: auto;margin: 0 0.5vw;cursor: pointer;
+  height: 100%;width: auto;margin: 0 0.5vw;cursor: pointer;border-radius: 50%;
 }
+    .memberlink a{
+      height: 100%;
+    }
 
 
 /*頁尾預約設計*/
@@ -1123,7 +1129,10 @@
         font-weight: bold;
     }
     .memberlink img{
-        height: 100%;width: auto;margin: 0 0.5vw;cursor: pointer;
+        height: 100%;width: auto;margin: 0 0.5vw;cursor: pointer;border-radius: 50%;
+    }
+    .memberlink a{
+      height: 100%;
     }
 
 
