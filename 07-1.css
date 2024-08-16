@@ -314,7 +314,7 @@
   font-weight: bold;
 }
 .memberlink img{
-  height: 100%;width: auto;margin: 0 0.5vw;cursor: pointer;border-radius: 50%;
+  height: 100%;width: auto;margin: 0 0.5vw;cursor: pointer;border-radius: 50%;margin-bottom: 5vw;
 }
     .memberlink a{
       height: 100%;
