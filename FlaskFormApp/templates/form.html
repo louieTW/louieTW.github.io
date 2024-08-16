@@ -137,10 +137,22 @@
     </form>
 </div>
 <script>
+    document.getElementById('appointmentForm').addEventListener('submit', function(event) {
+    // Example: Prevent form submission if a certain condition is not met
+    let name = document.getElementById('name').value;
+    if(name.trim() === '') {
+        alert('Please enter your name.');
+        event.preventDefault();
+    }
+});
+
+
+    
     function confirmSubmission() {
         alert('表單已成功提交！可關閉此頁面，謝謝您');
         return true;  // Allow form submission to proceed
     }
+    
 </script>
 
 </body>
