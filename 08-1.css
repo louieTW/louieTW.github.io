@@ -1180,12 +1180,12 @@
     height: 10vw;background-color: black;display: flex;justify-content: center;
   }
   .footericondiv{
-    width: 60%;display: flex;justify-content: space-evenly;height: 4vw;margin-top: 2vw;transition: all 0.5s;
+    width: 40%;display: flex;justify-content: space-evenly;height: 2vw;margin-top: 2vw;transition: all 0.5s;
   }
   .footericondiv img{
     height: 100%;
     border-radius: 50%;
-    border-width: 0.2vw;
+    border-width: 0.1vw;
     border-style: solid;
     border-color: white;
     cursor: pointer;
