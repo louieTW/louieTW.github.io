@@ -1324,41 +1324,41 @@
         padding: 5vw 0 3vw 0 ;
     }
     .everything{
-        display: flex;height: 135vw;
+        display: flex;height: 90vw;padding: 0 5vw;
     }
     .everything img{
         height: 100%;
         box-shadow: 16px 16px 25px 0 rgba(0, 0, 0, 0.6);
     }
     .everythingdiv{
-        display: flex;flex-direction: column;align-items: center;width: 100%;margin-top: 5vw;
+        display: flex;flex-direction: column;align-items: center;width: 100%;margin-top: 3vw;
     }
     .everythingdivv{
         text-align: start;font-family: Arial, Helvetica, sans-serif;
-        font-size: 2.5vw;
+        font-size: 2vw;
         width: 80%;
     }
     .everythingdivvv{
         text-align: start;font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.9vw;
+        font-size: 1.4vw;
         width: 80%;
         line-height: 1.7;
     }
     .everythingdivvv1{
         text-align: start;font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.9vw;
+        font-size: 1.4vw;
         width: 80%;
         line-height: 2.25;
     }
     .everythingdivvv2{
         text-align: center;font-family: Arial, Helvetica, sans-serif;
-        font-size: 3.5vw;
+        font-size: 3vw;
         width: 80%;
         line-height: 2.25;
     }
     .everythinglast{
         text-align: center;font-family: Arial, Helvetica, sans-serif;
-        font-size: 2.1vw;
+        font-size: 1.6vw;
         width: 72%;
         line-height: 1.7;
     }
@@ -1367,7 +1367,7 @@
         height: 7vw;
     }
     .food{
-        display: flex;height: 40vw;justify-content: end;
+        display: flex;height: 25vw;justify-content: end;padding: 0 5vw;
     }
     .food img{
         height: 100%;
@@ -1381,14 +1381,14 @@
     }
     .fooddiv2{
         text-align: center;font-family: Arial, Helvetica, sans-serif;
-        font-size: 2vw;
-        width: 72%;
+        font-size: 1.6vw;
+        width: 70%;
         line-height: 1.7;
     }
 
     /*關於京悅*/
     .about{
-        display: flex;justify-content: end;height: 50vw;
+        display: flex;justify-content: end;height: 50vw;padding: 0 5vw;
     }
     .about img{
         height: 100%;
@@ -1444,7 +1444,7 @@
     }
     /*基金會*/
     .fund{
-        display: flex;height: 62vw;
+        display: flex;height: 62vw;padding: 0 5vw;
     }
     .fund img{
         height: 100%;
