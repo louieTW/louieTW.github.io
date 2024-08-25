@@ -375,6 +375,13 @@
 .footericon img:hover{
   border: none;
 }
+.fgv{
+  display: none;
+}
+.fgv img{
+  display: none;
+}
+
 .lastword{
   font-size: 2vw;
   background-color: black;
@@ -404,6 +411,41 @@
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
+}
+
+/**/
+.KYIDLc{
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  font-weight:550;
+  padding: 0.9vw;
+  background-color: rgb(197, 185, 0);
+  margin-left: 0vw;
+  width: 59vw;
+}
+.oo{
+  display: flex;
+  justify-content:space-between;
+  margin-left: 15vw;
+  align-items: end;
+  width: 70%;
+  margin-bottom: 0.25vw;
+}
+.oooo{
+  width: 6vw;
+  height: 1vw;
+  background-color: rgb(197, 185, 0);
+}
+.realtext{
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  font-weight:550;
+  margin-left: 17vw;
+  margin-top: 2vw;
+  line-height: 2.5;
+  margin-bottom: 2vw;
 }
 }
 
@@ -749,6 +791,13 @@
 .footericon img:hover{
   border: none;
 }
+.fgv{
+  display: none;
+}
+.fgv img{
+  display: none;
+}
+
 .lastword{
   font-size: 1vw;
   background-color: black;
@@ -778,6 +827,41 @@
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
+}
+
+/**/
+.KYIDLc{
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+  font-weight:550;
+  padding: 0.5vw;
+  background-color: rgb(197, 185, 0);
+  margin-left: 0vw;
+  width: 39vw;
+}
+.oo{
+  display: flex;
+  justify-content:space-between;
+  margin-left: 15vw;
+  align-items: end;
+  width: 70%;
+  margin-bottom: 0.25vw;
+}
+.oooo{
+  width: 6vw;
+  height: 1vw;
+  background-color: rgb(197, 185, 0);
+}
+.realtext{
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+  font-weight:550;
+  margin-left: 25vw;
+  margin-top: 2vw;
+  line-height: 2.5;
+  margin-bottom: 2vw;
 }
 }
 
@@ -824,13 +908,12 @@
           background-color: rgb(255, 255, 255);
           display: flex;
           position: fixed;
-          padding: 0.5vw;
           z-index: 25;
           padding-left: 5.5%;
       }
       
       .navback{
-          height: 5.8vw;
+          height: 4.8vw;
           width: 100%;
           background-image: linear-gradient(to left, grey, rgb(255, 255, 255));
           position: fixed;
@@ -929,7 +1012,7 @@
           right: 5vw;
       }
       .maintopimg{
-        width: 90%;height: auto;margin: 5.8vw 5% 0 5%;
+        width: 90%;height: auto;margin: 4.8vw 5% 0 5%;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
       }
 
@@ -1030,10 +1113,10 @@
 }
 /*頁尾預約設計*/
 .footerdiv{
-  display: flex;height: 20vw;justify-content: center;align-items: center;
+  display: flex;height: 15vw;justify-content: center;align-items: center;
 }
 .footerdivv{
-  width: 25vw;height: 5vw;padding: 0.5vw;background-color: rgb(45, 45, 45);display: flex;cursor: pointer;margin-left: 2.5vw;margin-right: 2.5vw;
+  width: 20vw;height: 4vw;padding: 0.3vw;background-color: rgb(45, 45, 45);display: flex;cursor: pointer;margin-left: 0.5vw;margin-right: 0.5vw;
 }
 .footerdivv img{
   height: 100%;display: flex;
@@ -1044,8 +1127,8 @@
 
 
 .footerdivvspan{
-  color: white;
-  font-size: 1.4vw;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1vw;
   text-align: center;
   height: 100%;
   display: flex;
@@ -1060,9 +1143,9 @@
 .footerdivvspan::after{
   content: '\276F';
   position: absolute;
-  font-size: 2.5vw;
+  font-size: 2vw;
   opacity: 0;
-  top: 0.7vw;
+  top: 0.5vw;
   right: 5vw;
   transition: 0.5s;
 }
@@ -1071,18 +1154,18 @@
   right: 10px;
 }
 .footerdivvspan span{
-  font-size: 1vw;
+  font-size: 0.7vw;
   padding: 0.8vw;
   transition: 0.5s;
   
 }
 .footerdivv:hover .footerdivvspan{
-  font-size: 1.2vw;
+  font-size: 0.8vw;
   transition: 0.5s;
   padding-right: 2vw;
 }
 .footerdivv:hover span{
-  font-size: 0.8vw ;
+  font-size: 0.5vw ;
 }
 .footerdivv:hover{
   box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.6);transition: 0.5s;
@@ -1092,7 +1175,7 @@
   display: flex;justify-content: center;
 }
 .footerlogo img{
-  width: 30vw;
+  width: 20vw;
 }
 .footerword{
   font-size: 1vw;
@@ -1100,10 +1183,11 @@
   text-align: center;
   font-weight: bold;
   line-height: 1.8;
+  margin-bottom: 2vw;
 }
 /**/
 .footericon{
-  height: 10vw;background-color: black;display: flex;justify-content: center;
+  height: 6vw;background-color: black;display: flex;justify-content: center;
 }
 .footericondiv{
   width: 40%;display: flex;justify-content: space-evenly;height: 2vw;margin-top: 2vw;transition: all 0.5s;
@@ -1119,6 +1203,13 @@
 
 .footericon img:hover{
   border: none;
+}
+.fgv{
+  width: 20vw;height: 5vw;background-color: rgb(45, 45, 45);display: flex;cursor: pointer;margin-left: 0.5vw;margin-right: 0.5vw;
+  background-color: white;justify-content: center;align-items: end;
+}
+.fgv img{
+  height: 160%;display: flex;
 }
 .lastword{
   font-size: 1vw;
@@ -1149,5 +1240,41 @@
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
+}
+
+
+/**/
+.KYIDLc{
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6vw;
+  font-weight:550;
+  padding: 0.5vw;
+  background-color: rgb(197, 185, 0);
+  margin-left: 0vw;
+  width: 31vw;
+}
+.oo{
+  display: flex;
+  justify-content:space-between;
+  margin-left: 15vw;
+  align-items: end;
+  width: 70%;
+  margin-bottom: 0.25vw;
+}
+.oooo{
+  width: 6vw;
+  height: 1vw;
+  background-color: rgb(197, 185, 0);
+}
+.realtext{
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4vw;
+  font-weight:550;
+  margin-left: 25vw;
+  margin-top: 2vw;
+  line-height: 2.5;
+  margin-bottom: 2vw;
 }
 }
