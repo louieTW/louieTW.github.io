@@ -409,6 +409,13 @@
   .footericon img:hover{
     border: none;
   }
+  .fgv{
+    display: none;
+  }
+  .fgv img{
+    display: none;
+  }
+  
   .lastword{
     font-size: 2vw;
     background-color: black;
@@ -801,6 +808,13 @@
   .footericon img:hover{
     border: none;
   }
+  .fgv{
+    display: none;
+  }
+  .fgv img{
+    display: none;
+  }
+  
   .lastword{
     font-size: 1vw;
     background-color: black;
@@ -830,6 +844,9 @@
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
+  }
+  .map{
+    border:0;width: 100%;height: 40vw;
   }
 
 
@@ -880,13 +897,12 @@
           background-color: rgb(255, 255, 255);
           display: flex;
           position: fixed;
-          padding: 0.5vw;
           z-index: 25;
           padding-left: 5.5%;
       }
       
       .navback{
-          height: 5.8vw;
+          height: 4.8vw;
           width: 100%;
           background-image: linear-gradient(to left, grey, rgb(255, 255, 255));
           position: fixed;
@@ -985,7 +1001,7 @@
           right: 5vw;
       }
       .maintopimg{
-        width: 90%;height: auto;margin: 5.8vw 5% 0 5%;
+        width: 90%;height: auto;margin: 4.8vw 5% 0 5%;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
       }
 
@@ -1089,13 +1105,13 @@
         line-height: 2;
     }
     .lin{
-        display: flex;justify-content: space-evenly;width: 80%;margin-top: 2vw;margin-left: 10%;
+        display: flex;justify-content: space-evenly;width: 80%;margin-top: 4vw;margin-left: 10%;
     }
     .lin2{
         width: 10%;height: 25vw;
     }
     .lin2 img{
-        width: 100%;
+        width: 50%;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
         border-radius: 50%;
         margin: 1vw 0;
@@ -1104,104 +1120,118 @@
 
     /*頁尾預約設計*/
 .footerdiv{
-    display: flex;height: 20vw;justify-content: center;align-items: center;
-  }
-  .footerdivv{
-    width: 25vw;height: 5vw;padding: 0.5vw;background-color: rgb(45, 45, 45);display: flex;cursor: pointer;margin-left: 2.5vw;margin-right: 2.5vw;
-  }
-  .footerdivv img{
-    height: 100%;display: flex;
-  }
-  .footerdiva{
-    width: 100%;
-  }
+  display: flex;height: 15vw;justify-content: center;align-items: center;
+}
+.footerdivv{
+  width: 20vw;height: 4vw;padding: 0.3vw;background-color: rgb(45, 45, 45);display: flex;cursor: pointer;margin-left: 0.5vw;margin-right: 0.5vw;
+}
+.footerdivv img{
+  height: 100%;display: flex;
+}
+.footerdiva{
+  width: 100%;
+}
+
+
+.footerdivvspan{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1vw;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  transition: 0.5s;
+  padding-top: 0.3vw;
+}
+.footerdivvspan::after{
+  content: '\276F';
+  position: absolute;
+  font-size: 2vw;
+  opacity: 0;
+  top: 0.5vw;
+  right: 5vw;
+  transition: 0.5s;
+}
+.footerdivv:hover .footerdivvspan::after{
+  opacity: 1;
+  right: 10px;
+}
+.footerdivvspan span{
+  font-size: 0.7vw;
+  padding: 0.8vw;
+  transition: 0.5s;
   
-  
-  .footerdivvspan{
-    color: white;
-    font-size: 1.4vw;
-    text-align: center;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    transition: 0.5s;
-    padding-top: 0.3vw;
-  }
-  .footerdivvspan::after{
-    content: '\276F';
-    position: absolute;
-    font-size: 2.5vw;
-    opacity: 0;
-    top: 0.7vw;
-    right: 5vw;
-    transition: 0.5s;
-  }
-  .footerdivv:hover .footerdivvspan::after{
-    opacity: 1;
-    right: 10px;
-  }
-  .footerdivvspan span{
-    font-size: 1vw;
-    padding: 0.8vw;
-    transition: 0.5s;
-    
-  }
-  .footerdivv:hover .footerdivvspan{
-    font-size: 1.2vw;
-    transition: 0.5s;
-    padding-right: 2vw;
-  }
-  .footerdivv:hover span{
-    font-size: 0.8vw ;
-  }
-  .footerdivv:hover{
-    box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.6);transition: 0.5s;
-  }
-  /*footer*/
-  .footerlogo{
-    display: flex;justify-content: center;
-  }
-  .footerlogo img{
-    width: 30vw;
-  }
-  .footerword{
-    font-size: 1vw;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: bold;
-    line-height: 1.8;
-  }
-  /**/
-  .footericon{
-    height: 10vw;background-color: black;display: flex;justify-content: center;
-  }
-  .footericondiv{
-    width: 40%;display: flex;justify-content: space-evenly;height: 2vw;margin-top: 2vw;transition: all 0.5s;
-  }
-  .footericondiv img{
-    height: 100%;
-    border-radius: 50%;
-    border-width: 0.1vw;
-    border-style: solid;
-    border-color: white;
-    cursor: pointer;
-  }
-  
-  .footericon img:hover{
-    border: none;
-  }
-  .lastword{
-    font-size: 1vw;
-    background-color: black;
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 2vw;
-  }
+}
+.footerdivv:hover .footerdivvspan{
+  font-size: 0.8vw;
+  transition: 0.5s;
+  padding-right: 2vw;
+}
+.footerdivv:hover span{
+  font-size: 0.5vw ;
+}
+.footerdivv:hover{
+  box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.6);transition: 0.5s;
+}
+/*footer*/
+.footerlogo{
+  display: flex;justify-content: center;
+}
+.footerlogo img{
+  width: 20vw;
+}
+.footerword{
+  font-size: 1.3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2;
+  margin-bottom: 2vw;
+}
+.footerword span{
+  font-size: 1.9vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+/**/
+.footericon{
+  height: 6vw;background-color: black;display: flex;justify-content: center;
+}
+.footericondiv{
+  width: 40%;display: flex;justify-content: space-evenly;height: 2vw;margin-top: 2vw;transition: all 0.5s;
+}
+.footericondiv img{
+  height: 100%;
+  border-radius: 50%;
+  border-width: 0.1vw;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+}
+
+.footericon img:hover{
+  border: none;
+}
+.fgv{
+  width: 20vw;height: 5vw;background-color: rgb(45, 45, 45);display: flex;cursor: pointer;margin-left: 0.5vw;margin-right: 0.5vw;
+  background-color: white;justify-content: center;align-items: end;
+}
+.fgv img{
+  height: 160%;display: flex;
+}
+.lastword{
+  font-size: 1vw;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 2vw;
+}
   .scrol-container {
     position: relative;
     width: 100%;
@@ -1223,6 +1253,9 @@
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
+  }
+  .map{
+    border:0;width: 100%;height: 40vw;
   }
     
 }
