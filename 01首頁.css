@@ -566,7 +566,7 @@ font-size: 1.8vw;
   justify-content: center;align-items: center;
   height: 50vw;
   margin: 0;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1) 90%), url("01首頁/工程執行/01 (1).jpg");
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1) 50%), url("01首頁/工程執行/01 (1).jpg");
   background-position: center;
   background-size: cover;
   z-index: 23;
@@ -726,6 +726,105 @@ font-size: 1.8vw;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 2vw;
+}
+/*二次更改區*/
+.dash{
+  height: 3.5vw;
+  width: 100%;
+  display: flex;align-items: end;
+}
+.dav{
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.davword{
+  position: absolute;
+  font-size: 2.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 1vw;
+  font-weight: bold;
+}
+.davword span{
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.ev{
+  height: 29vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.ef{
+  width: 26.5%;
+  overflow: hidden;
+}
+.ef img{
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.5s;
+  height: auto;
+  border-radius: 5px;
+}
+.efword{
+  text-align: center;
+  font-size: 2.4vw;
+  margin-top: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.efword span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7vw;
+}
+.ef img:hover{
+  transform: scale(1.1);
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+.oo{
+  height: 0%;
+  left: 5vw;
+  position: relative;
+}
+.oo img{
+  height: 0%;
+
+}
+.pp{
+  width: 90%;margin-left: 5vw;
+  height: 5vw;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+  margin-top: 2vw;
+}
+.ppp{
+  font-size: 2vw;
+  font-weight: bold;
+   color: rgb(109, 108, 108);
+}
+.ppp span{
+  font-size: 1.5vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1vw;
+}
+.ll{
+  width: 0;
+  display: none;
+}
+.ll img{
+  width: 0;
+}
+.fgv{
+  display: none;
+}
+.fgv img{
+  display: none;
 }
 }
 
@@ -1417,6 +1516,13 @@ font-size: 1.4vw;
 .footericon img:hover{
   border: none;
 }
+.fgv{
+  display: none;
+}
+.fgv img{
+  display: none;
+}
+
 .lastword{
   font-size: 1vw;
   background-color: black;
@@ -1425,6 +1531,103 @@ font-size: 1.4vw;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 2vw;
 }
+
+
+
+/*二次更改區*/
+.dash{
+  height: 3.5vw;
+  width: 100%;
+  display: flex;align-items: end;
+}
+.dav{
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.davword{
+  position: absolute;
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 1vw;
+  font-weight: bold;
+}
+.davword span{
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.ev{
+  height: 25vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.ef{
+  width: 26.5%;
+  overflow: hidden;
+}
+.ef img{
+  width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.5s;
+  height: auto;
+  border-radius: 5px;
+}
+.efword{
+  text-align: center;
+  font-size: 1.4vw;
+  margin-top: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.efword span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+}
+.ef img:hover{
+  transform: scale(1.1);
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+.oo{
+  height: 0%;
+  left: 5vw;
+  position: relative;
+}
+.oo img{
+  height: 0%;
+
+}
+.pp{
+  width: 90%;margin-left: 5vw;
+  height: 7vw;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+  margin-top: 2vw;
+}
+.ppp{
+  font-size: 3vw;
+  font-weight: bold;
+   color: rgb(109, 108, 108);
+}
+.ppp span{
+  font-size: 2.2vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1vw;
+}
+.ll{
+  width: 0;
+  display: none;
+}
+.ll img{
+  width: 0;
+}
+
 }
 
 
@@ -1471,13 +1674,12 @@ font-size: 1.4vw;
         background-color: rgb(255, 255, 255);
         display: flex;
         position: fixed;
-        padding: 0.5vw;
         z-index: 25;
         padding-left: 5.5%;
     }
     
     .navback{
-        height: 5.8vw;
+        height: 4.8vw;
         width: 100%;
         background-image: linear-gradient(to left, grey, rgb(255, 255, 255));
         position: fixed;
@@ -1579,15 +1781,15 @@ font-size: 1.4vw;
     .showcasediv{
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: start;
       background-color: #ffffff;
-      padding-top: 5.5vw;
+      padding-top: 4.5vw;
   }
 
   .showcase {
     width: 90%; /* 幻燈片區塊佔滿寬度 */
     height: 0;
-    padding-bottom: 33.741%; /* 16:9的比例，根據需要調整 */
+    padding-bottom: 42%; /* 16:9的比例，根據需要調整 */
     position: relative;
     overflow: hidden;
     box-shadow: 5px 0 20px 0 rgba(0, 0, 0, 0.5),-5px 0 20px 0 rgba(0, 0, 0, 0.5);
@@ -1647,6 +1849,7 @@ font-size: 1.4vw;
     background-image:linear-gradient(to left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1) 90%), url("01首頁/王者之路/01 (4).jpg");
     background-position: center;
     background-size: cover;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .carousel {
@@ -1709,13 +1912,14 @@ font-size: 1.4vw;
 /*設計中心輪播圖*/
 .sanctuarydiv {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   height: 40vw;
   margin: 0;
   background-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1) 90%), url("01首頁/設計中心/01 (11-1).jpg");
   background-position: center;
   background-size: cover;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .sanctuary {
@@ -1726,6 +1930,7 @@ font-size: 1.4vw;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  margin-left: 7.5vw;
 }
 
 .vision-frame {
@@ -1794,6 +1999,7 @@ font-size: 1.4vw;
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1) 90%), url("01首頁/自地自建/01 (13).jpg");
   background-position: center;
   background-size: cover;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .thumbnailBox {
@@ -1884,11 +2090,11 @@ font-size: 1.4vw;
 
 /*最新消息*/
 .news{
-  display: flex;justify-content: space-evenly;height: 30vw;align-items: center;padding-left: 17vw;padding-right: 17vw;
+  display: flex;justify-content: flex-end;height: 27vw;align-items: center;padding-right: 1vw;
 }
 .newsdiv{
   width: 30vw;height: 25vw;box-shadow: 0px -12px 25px  rgba(0, 0, 0, 0.3);
-  
+  margin-left: 3vw;
   overflow: hidden;
 }
 .newsdiv img{
@@ -1939,7 +2145,7 @@ font-size: 1.4vw;
 .scro-container {
   position: relative;
   width: 100%;
-  height: 60vw;
+  height: 58vw;
   background-color: white;
   overflow: hidden;
 }
@@ -1950,9 +2156,9 @@ font-size: 1.4vw;
 .quantumrealm {
   display: flex;
   justify-content: center;align-items: center;
-  height: 50vw;
+  height: 30vw;
   margin: 0;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1) 90%), url("01首頁/工程執行/01 (1).jpg");
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1) 50%), url("01首頁/工程執行/01 (1).jpg");
   background-position: center;
   background-size: cover;
 }
@@ -2001,7 +2207,7 @@ font-size: 1.4vw;
 .textoverlay {
   position: absolute;
   left:45vw;
-  margin-top: 3vw;
+  margin-top: -2.5vw;
   font-size: 1.5vw;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -2011,10 +2217,10 @@ font-size: 1.4vw;
 }
 /*頁尾預約設計*/
 .footerdiv{
-  display: flex;height: 20vw;justify-content: center;align-items: center;
+  display: flex;height: 15vw;justify-content: center;align-items: center;
 }
 .footerdivv{
-  width: 25vw;height: 5vw;padding: 0.5vw;background-color: rgb(45, 45, 45);display: flex;cursor: pointer;margin-left: 2.5vw;margin-right: 2.5vw;
+  width: 20vw;height: 4vw;padding: 0.3vw;background-color: rgb(45, 45, 45);display: flex;cursor: pointer;margin-left: 0.5vw;margin-right: 0.5vw;
 }
 .footerdivv img{
   height: 100%;display: flex;
@@ -2025,8 +2231,8 @@ font-size: 1.4vw;
 
 
 .footerdivvspan{
-  color: white;
-  font-size: 1.4vw;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1vw;
   text-align: center;
   height: 100%;
   display: flex;
@@ -2041,9 +2247,9 @@ font-size: 1.4vw;
 .footerdivvspan::after{
   content: '\276F';
   position: absolute;
-  font-size: 2.5vw;
+  font-size: 2vw;
   opacity: 0;
-  top: 0.7vw;
+  top: 0.5vw;
   right: 5vw;
   transition: 0.5s;
 }
@@ -2052,18 +2258,18 @@ font-size: 1.4vw;
   right: 10px;
 }
 .footerdivvspan span{
-  font-size: 1vw;
+  font-size: 0.7vw;
   padding: 0.8vw;
   transition: 0.5s;
   
 }
 .footerdivv:hover .footerdivvspan{
-  font-size: 1.2vw;
+  font-size: 0.8vw;
   transition: 0.5s;
   padding-right: 2vw;
 }
 .footerdivv:hover span{
-  font-size: 0.8vw ;
+  font-size: 0.5vw ;
 }
 .footerdivv:hover{
   box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.6);transition: 0.5s;
@@ -2073,7 +2279,7 @@ font-size: 1.4vw;
   display: flex;justify-content: center;
 }
 .footerlogo img{
-  width: 30vw;
+  width: 20vw;
 }
 .footerword{
   font-size: 1vw;
@@ -2081,10 +2287,11 @@ font-size: 1.4vw;
   text-align: center;
   font-weight: bold;
   line-height: 1.8;
+  margin-bottom: 2vw;
 }
 /**/
 .footericon{
-  height: 10vw;background-color: black;display: flex;justify-content: center;
+  height: 6vw;background-color: black;display: flex;justify-content: center;
 }
 .footericondiv{
   width: 40%;display: flex;justify-content: space-evenly;height: 2vw;margin-top: 2vw;transition: all 0.5s;
@@ -2101,6 +2308,13 @@ font-size: 1.4vw;
 .footericon img:hover{
   border: none;
 }
+.fgv{
+  width: 20vw;height: 5vw;background-color: rgb(45, 45, 45);display: flex;cursor: pointer;margin-left: 0.5vw;margin-right: 0.5vw;
+  background-color: white;justify-content: center;align-items: end;
+}
+.fgv img{
+  height: 160%;display: flex;
+}
 .lastword{
   font-size: 1vw;
   background-color: black;
@@ -2109,6 +2323,103 @@ font-size: 1.4vw;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 2vw;
 }
+
+
+/*二次更改區*/
+.dash{
+  height: 3.5vw;
+  width: 100%;
+  display: flex;align-items: end;
+}
+.dav{
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.davword{
+  position: absolute;
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 1vw;
+  font-weight: bold;
+}
+.davword span{
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.ev{
+  height: 25vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.ef{
+  width: 26.5%;
+  overflow: hidden;
+}
+.ef img{
+  width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.5s;
+  height: auto;
+  border-radius: 5px;
+}
+.efword{
+  text-align: center;
+  font-size: 1.4vw;
+  margin-top: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.efword span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+}
+.ef img:hover{
+  transform: scale(1.1);
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+.oo{
+  height: 90%;
+  left: 5vw;
+  position: relative;
+}
+.oo img{
+  height: 100%;
+
+}
+.pp{
+  width: 90%;margin-left: 5vw;
+  height: 5vw;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+  margin-top: 2vw;
+}
+.ppp{
+  font-size: 2vw;
+  font-weight: bold;
+   color: rgb(109, 108, 108);
+}
+.ppp span{
+  font-size: 1.5vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1vw;
+}
+.ll{
+  width: 15%;
+  display: block;
+}
+.ll img{
+  width: 100%;
+}
+
+
 
 
 }
