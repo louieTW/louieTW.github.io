@@ -447,7 +447,10 @@
   background-attachment: fixed;
   z-index: -1;
 }
-
+.ps{
+  width: 100%;height: auto;
+}
+   
 
 }
 
@@ -864,7 +867,10 @@
   background-attachment: fixed;
   z-index: -1;
 }
-
+.ps{
+  width: 100%;height: auto;
+}
+   
 
 }
 
