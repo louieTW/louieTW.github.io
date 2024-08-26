@@ -599,7 +599,7 @@
         display: block;
     }
     .maintopimg{
-        width: 90%;height: auto;margin: 12.5vw 5% 0 5%;
+        width: 100%;height: auto;margin: 12.5vw 0 0 0;
         box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4);
       }
 
