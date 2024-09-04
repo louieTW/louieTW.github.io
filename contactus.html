@@ -113,7 +113,7 @@ AI醫學中心設計〡AI醫院設計〡醫院大廳設計〡無障礙醫院設�
                     <a href="design_center3.html" style="text-decoration: none;color: black;"><li>收費標準</li></a>
                     <a href="AI_technology_integration.html" style="text-decoration: none;color: black;"><li>科技應用整合</li></a>
                     <a href="design_team_member.html" style="text-decoration: none;color: black;"><li>設計團隊</li></a>
-                    <a href="contactus.html" style="text-decoration: none;color: black;"><li>聯絡我們</li></a>
+                    <a href="contactus.html#section-id" style="text-decoration: none;color: black;"><li>聯絡我們</li></a>
                 </ul>
             </div>
         </header>
@@ -124,7 +124,7 @@ AI醫學中心設計〡AI醫院設計〡醫院大廳設計〡無障礙醫院設�
             <div class="iconimg"><a href="01首頁/icon/line.jpg" target="_blank"><img src="01首頁/icon/02-1.png" onmouseover="btnb(this)" onmouseout="btnbb(this)" id="icb" alt="kyid line QR code"></div></a>
             <div class="iconimg"><a href="01首頁/icon/whatsapp.jpg" target="_blank"><img src="01首頁/icon/03-1.png" onmouseover="btnc(this)" onmouseout="btncc(this)" id="icc" alt="kyid whatsapp QR code"></div></a>
             <div class="iconimg"><a href="mailto:kyid88@gmail.com"><img src="01首頁/icon/04-1.png" onmouseover="btnd(this)" onmouseout="btndd(this)" id="icd" alt="kyid email"></div></a>
-            <div class="iconimg"><a href="contactus.html"><img src="01首頁/icon/05-1.png" onmouseover="btne(this)" onmouseout="btnee(this)" id="ice" alt="kyid contact us"></div></a>
+            <div class="iconimg"><a href="contactus.html#section-id"><img src="01首頁/icon/05-1.png" onmouseover="btne(this)" onmouseout="btnee(this)" id="ice" alt="kyid contact us"></div></a>
         </div>
         <img src="02 最新消息/main top image.jpg" class="maintopimg" alt="top image">
         <div style="height: 0.5vw;"></div>
@@ -459,6 +459,13 @@ function footerh(){
 function footerhh(){
     document.getElementById("bth").src="01首頁/footer icon/08-1.png"
 }
+//section
+document.addEventListener("DOMContentLoaded", function() {
+    var targetElement = document.getElementById("section-id");
+    if (window.location.hash && targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+});
         </script>
     </body>
 </html>
